@@ -1,0 +1,527 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3125a307209061fc42ba21de1a842f84",
+    "content-hash": "a92e7e26d64a988d318829fa52816606",
+    "packages": [
+        {
+            "name": "nikic/fast-route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "7ced406715e68151947fa540ab58eb238864215d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/7ced406715e68151947fa540ab58eb238864215d",
+                "reference": "7ced406715e68151947fa540ab58eb238864215d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2017-05-18 13:44:56"
+        },
+        {
+            "name": "satori/application",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/application.git",
+                "reference": "ee10f31c2d7e772b614adb2b401ec62f43d7de74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/application/zipball/ee10f31c2d7e772b614adb2b401ec62f43d7de74",
+                "reference": "ee10f31c2d7e772b614adb2b401ec62f43d7de74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satori\\Application\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Application",
+            "keywords": [
+                "Satori",
+                "container",
+                "di",
+                "dispatcher",
+                "event",
+                "framework"
+            ],
+            "time": "2017-03-17 10:21:53"
+        },
+        {
+            "name": "satori/data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/data.git",
+                "reference": "ff0dfdf5d0d842986a6f0b2568e3f92fc3739526"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/data/zipball/ff0dfdf5d0d842986a6f0b2568e3f92fc3739526",
+                "reference": "ff0dfdf5d0d842986a6f0b2568e3f92fc3739526",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satori\\Data\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Components for data",
+            "keywords": [
+                "Satori",
+                "data",
+                "dto"
+            ],
+            "time": "2017-03-11 13:50:46"
+        },
+        {
+            "name": "satori/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/http.git",
+                "reference": "6d916055771e4aa253cbae7df6ec5900c8ae42b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/http/zipball/6d916055771e4aa253cbae7df6ec5900c8ae42b9",
+                "reference": "6d916055771e4aa253cbae7df6ec5900c8ae42b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/request.php",
+                    "src/response.php",
+                    "src/session.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "HTTP components",
+            "keywords": [
+                "Satori",
+                "http",
+                "request",
+                "response",
+                "session"
+            ],
+            "time": "2017-03-17 12:05:12"
+        },
+        {
+            "name": "satori/micro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/micro.git",
+                "reference": "59c1d44cb851a8e9396268eb512dadd0fb913910"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/micro/zipball/59c1d44cb851a8e9396268eb512dadd0fb913910",
+                "reference": "59c1d44cb851a8e9396268eb512dadd0fb913910",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "satori/application": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satori\\Micro\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Microframework application",
+            "keywords": [
+                "Satori",
+                "container",
+                "di",
+                "dispatcher",
+                "event",
+                "framework",
+                "micro",
+                "microframework"
+            ],
+            "time": "2017-03-17 10:40:38"
+        },
+        {
+            "name": "satori/middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/middleware.git",
+                "reference": "d43051baef9ccd2802e0a09e3b7aaaf72784dc7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/middleware/zipball/d43051baef9ccd2802e0a09e3b7aaaf72784dc7e",
+                "reference": "d43051baef9ccd2802e0a09e3b7aaaf72784dc7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satori\\Middleware\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                },
+                "files": [
+                    "src/dummy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Middleware components",
+            "keywords": [
+                "Satori",
+                "capsule",
+                "middleware",
+                "pipeline"
+            ],
+            "time": "2017-09-18 19:03:09"
+        },
+        {
+            "name": "satori/middleware-action",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/middleware-action.git",
+                "reference": "351b89abb84c69fc5754821a1553e619d87a5193"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/middleware-action/zipball/351b89abb84c69fc5754821a1553e619d87a5193",
+                "reference": "351b89abb84c69fc5754821a1553e619d87a5193",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "satori/application": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/action.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Action middleware",
+            "keywords": [
+                "Satori",
+                "action",
+                "middleware"
+            ],
+            "time": "2017-06-06 07:52:02"
+        },
+        {
+            "name": "satori/middleware-fast-route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/middleware-fast-route.git",
+                "reference": "b87a12eb5b187fd57158ec8e1ab5660f65970355"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/middleware-fast-route/zipball/b87a12eb5b187fd57158ec8e1ab5660f65970355",
+                "reference": "b87a12eb5b187fd57158ec8e1ab5660f65970355",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/fast-route": "dev-master",
+                "php": ">=7.0",
+                "satori/application": "dev-master",
+                "satori/http": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/fast-route.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "FastRoute middleware",
+            "keywords": [
+                "FastRoute",
+                "Satori",
+                "middleware",
+                "router"
+            ],
+            "time": "2017-03-17 11:57:27"
+        },
+        {
+            "name": "satori/pagination",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/pagination.git",
+                "reference": "466bebc0a2817435cdad650db1d74efb5a3b9caf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/pagination/zipball/466bebc0a2817435cdad650db1d74efb5a3b9caf",
+                "reference": "466bebc0a2817435cdad650db1d74efb5a3b9caf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satori\\Pagination\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Pagination",
+            "keywords": [
+                "Satori",
+                "pagination",
+                "paginator"
+            ],
+            "time": "2017-03-11 14:02:20"
+        },
+        {
+            "name": "satori/template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/template.git",
+                "reference": "ddf3b1371203d60ddd0c87ba3571c2c0d597d46d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/template/zipball/ddf3b1371203d60ddd0c87ba3571c2c0d597d46d",
+                "reference": "ddf3b1371203d60ddd0c87ba3571c2c0d597d46d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satori\\Template\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Template View",
+            "keywords": [
+                " view",
+                "Satori",
+                "template"
+            ],
+            "time": "2017-03-11 14:01:14"
+        },
+        {
+            "name": "satori/validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satori-php/validation.git",
+                "reference": "346c14fc8d1c973eed0b128ecf25049a45b95446"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satori-php/validation/zipball/346c14fc8d1c973eed0b128ecf25049a45b95446",
+                "reference": "346c14fc8d1c973eed0b128ecf25049a45b95446",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/filter.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuriy Davletshin",
+                    "email": "yuriy.davletshin@gmail.com"
+                }
+            ],
+            "description": "Validation",
+            "keywords": [
+                "Satori",
+                "validation"
+            ],
+            "time": "2017-04-07 07:03:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "satori/micro": 20,
+        "satori/http": 20,
+        "satori/data": 20,
+        "satori/template": 20,
+        "satori/pagination": 20,
+        "satori/validation": 20,
+        "satori/middleware": 20,
+        "satori/middleware-fast-route": 20,
+        "satori/middleware-action": 20,
+        "nikic/fast-route": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

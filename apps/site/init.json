@@ -1,0 +1,20 @@
+{
+    "app_files": [
+        "../common/src/Middleware/response.php",
+        "src/App/init/app.php",
+        "src/App/init/renderers.php"
+    ],
+    "config_files": [
+        "src/config_dev.php",
+        "src/config.php"
+    ],
+    "module_dirs": [
+        "src/StaticPage"
+    ],
+    "module_files": [
+        "init/actions.php",
+        "init/queries.php",
+        "init/services.php",
+        "init/templates.php"
+    ]
+}

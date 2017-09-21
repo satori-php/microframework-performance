@@ -1,0 +1,35 @@
+{
+    "name": "satori-micro.dev",
+    "description": "Performance test",
+    "keywords": ["Performance test"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yuriy Davletshin",
+            "email": "yuriy.davletshin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "satori/micro": "dev-master",
+        "satori/http": "dev-master",
+        "satori/data": "dev-master",
+        "satori/template": "dev-master",
+        "satori/pagination": "dev-master",
+        "satori/validation": "dev-master",
+        "satori/middleware": "dev-master",
+        "satori/middleware-fast-route": "dev-master",
+        "satori/middleware-action": "dev-master",
+        "nikic/fast-route": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Common\\": "apps/common/src/",
+            "Site\\": "apps/site/src/"
+        },
+        "files": [
+            "apps/common/src/init.php"
+        ]
+    }
+}
